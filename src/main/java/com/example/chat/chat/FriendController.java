@@ -44,25 +44,17 @@ public class FriendController {
         return ResponseEntity.ok(friends);
     }
 
-    // API lấy danh sách bạn bè kèm trạng thái
-    @GetMapping("/{userId}/list")
-    public ResponseEntity<List<User>> getFriendList(
-            @PathVariable Long userId
-    ) {
-        List<User> friends = friendService.getFriendsWithStatus(userId);
-        return ResponseEntity.ok(friends);
-    }
-    @GetMapping("/search")
-    public ResponseEntity<List<User>> searchUsers(@RequestParam String keyword) {
-        List<User> users = friendService.searchUsers(keyword);
-        return ResponseEntity.ok(users);
-    }
-
+    // Lấy danh sách bạn bè kèm trạng thái online/offline
     @GetMapping("/{userId}/list-with-status")
     public ResponseEntity<List<User>> getFriendListWithStatus(@PathVariable Long userId) {
         List<User> friends = friendService.getFriendListWithStatus(userId);
         return ResponseEntity.ok(friends);
     }
 
-
+    // Tìm kiếm người dùng
+    @GetMapping("/search")
+    public ResponseEntity<List<User>> searchUsers(@RequestParam String keyword) {
+        List<User> users = friendService.searchUsers(keyword);
+        return ResponseEntity.ok(users);
+    }
 }
