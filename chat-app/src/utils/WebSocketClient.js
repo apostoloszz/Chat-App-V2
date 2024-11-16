@@ -41,8 +41,10 @@
 
 import { Stomp } from "@stomp/stompjs";
 
+
 const WebSocketClient = (username) => {
     const stompClient = Stomp.client("ws://localhost:8080/ws");
+    stompClient.connect({}, () => console.log("Connected to WebSocket"));
 
     const connect = () => {
         stompClient.connect({}, () => {
