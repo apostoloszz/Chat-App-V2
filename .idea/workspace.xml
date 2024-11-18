@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2721bd86-ac17-4b60-bfd5-fc8c28942e0a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/chatclient/chat-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatclient/chat-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatclient/chat-app/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatclient/chat-app/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/ChatApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/chat/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/chat/FriendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/config/WebSocketEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/entity/ChatMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/entity/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/entity/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/entity/MessageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/repository/FriendRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/repository/MessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/service/FriendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/utils/WebSocketClient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/test/java/com/example/chat/ChatApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/chat-app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/chat-app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/chat-app/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/chat-app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/chat-app/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/chat-app/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/chat-app/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/chat-app/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/src/components/ChatWindow.js" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/components/ChatWindow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/src/components/MessageInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/components/MessageInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/src/components/UserList.js" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/components/UserList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/chat-app/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/src/utils/EmojiPicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/src/main/java/com/example/chat/utils/EmojiPicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/src/utils/WebSocketClient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/bundles/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/bundles/stomp.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/bundles/stomp.umd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/bundles/stomp.umd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/augment-websocket.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/augment-websocket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/augment-websocket.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/byte.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/byte.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/byte.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/client.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/client.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/compatibility/compat-client.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/compatibility/compat-client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/compatibility/compat-client.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/compatibility/heartbeat-info.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/compatibility/heartbeat-info.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/compatibility/heartbeat-info.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/compatibility/stomp.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/compatibility/stomp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/compatibility/stomp.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/frame-impl.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/frame-impl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/frame-impl.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/i-frame.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/i-frame.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/i-frame.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/i-message.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/i-message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/i-message.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/i-transaction.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/i-transaction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/i-transaction.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/parser.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/parser.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/stomp-config.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/stomp-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/stomp-config.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/stomp-handler.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/stomp-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/stomp-handler.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/stomp-headers.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/stomp-headers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/stomp-headers.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/stomp-subscription.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/stomp-subscription.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/stomp-subscription.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/types.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/versions.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/esm6/versions.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/augment-websocket.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/byte.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/client.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/compatibility/compat-client.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/compatibility/heartbeat-info.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/compatibility/stomp.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/frame-impl.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/i-frame.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/i-message.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/i-transaction.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/parser.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/stomp-config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/stomp-handler.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/stomp-headers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/stomp-subscription.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@stomp/stompjs/src/versions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-mart/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-mart/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-mart/dist/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-mart/dist/browser.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-mart/dist/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-mart/dist/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-mart/dist/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-mart/dist/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-mart/dist/module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-mart/dist/module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-mart/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chat/ChatApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chat/chat/ChatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chat/chat/FriendController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chat/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chat/config/WebSocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chat/config/WebSocketEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chat/entity/ChatMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chat/entity/Friend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chat/entity/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chat/entity/MessageType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chat/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chat/repository/FriendRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chat/repository/MessageRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chat/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chat/service/FriendService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chat/service/MessageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/chat/ChatApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;assignee&quot;: &quot;apostoloszz&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;assignee&quot;: &quot;apostoloszz&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/apostoloszz/Chat-App-V2.git&quot;,
+    &quot;accountId&quot;: &quot;52ddef30-2b1a-48c5-8e8f-0ebab805de49&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2opiwXBJlylUxHF9bsGaAfbvhIf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ChatApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Chat-App-V2/chatserver",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.chat.repository" />
+      <recent name="com.example.chat.service" />
+      <recent name="com.example.chat.entity" />
+      <recent name="com.example.chat.chat" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Chat-App-V2\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Chat-App-V2\src\main\java\com\example\chat" />
+      <recent name="D:\Chat-App-V2" />
+      <recent name="D:\Chat-App-V2\src" />
+      <recent name="D:\Chat-App-V2\chat-app\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ChatApplication">
+    <configuration name="ChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Chat-App-Version2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.chat.ChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/src/chat-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2721bd86-ac17-4b60-bfd5-fc8c28942e0a" name="Changes" comment="" />
+      <created>1731573158998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731573158998</updated>
+      <workItem from="1731573160787" duration="4705000" />
+      <workItem from="1731581247637" duration="3317000" />
+      <workItem from="1731662210894" duration="6280000" />
+      <workItem from="1731672212847" duration="141000" />
+      <workItem from="1731672596253" duration="4106000" />
+      <workItem from="1731676767142" duration="98000" />
+      <workItem from="1731677171176" duration="2729000" />
+      <workItem from="1731679973556" duration="455000" />
+      <workItem from="1731680442358" duration="248000" />
+      <workItem from="1731680711599" duration="1957000" />
+      <workItem from="1731682792634" duration="259000" />
+      <workItem from="1731691238551" duration="3576000" />
+      <workItem from="1731728491598" duration="2739000" />
+      <workItem from="1731731412425" duration="723000" />
+      <workItem from="1731739687282" duration="194000" />
+      <workItem from="1731757929808" duration="1759000" />
+      <workItem from="1731760808987" duration="777000" />
+      <workItem from="1731761609564" duration="1609000" />
+      <workItem from="1731763247797" duration="1533000" />
+      <workItem from="1731768476641" duration="479000" />
+      <workItem from="1731848585907" duration="969000" />
+      <workItem from="1731851293544" duration="2892000" />
+      <workItem from="1731854217389" duration="3215000" />
+      <workItem from="1731857552045" duration="790000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
