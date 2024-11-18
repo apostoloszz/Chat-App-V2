@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
-import com.example.chat.service.MessageService; // Import lớp MessageService
+import com.example.chat.service.MessageService;
 import lombok.RequiredArgsConstructor;
 
 @Controller
@@ -27,9 +27,9 @@ public class ChatController {
     @MessageMapping("/chat.sendMessage")
     @SendTo("/topic/public")
     public ChatMessage sendMessage(@Payload ChatMessage chatMessage) {
+        System.out.println("Received message: " + chatMessage.getContent());
         return chatMessage;
     }
-
 
     @MessageMapping("/chat.privateMessage")
     public void privateMessage(@Payload ChatMessage chatMessage) {

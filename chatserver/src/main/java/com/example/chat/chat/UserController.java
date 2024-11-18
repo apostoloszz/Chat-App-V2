@@ -35,16 +35,21 @@ public class UserController {
         }
     }
 
-
-    // Đăng nhập (kiểm tra username)
+    // Đăng nhập (kiểm tra username và password)
     @PostMapping("/login")
-    public ResponseEntity<User> loginUser(@RequestBody User user) {
+    public ResponseEntity<String> loginUser(@RequestBody User user) {
         Optional<User> existingUser = userRepository.findByUsername(user.getUsername());
         if (existingUser.isPresent()) {
-            return ResponseEntity.ok(existingUser.get());
+            if (existingUser.get().getPassword().equals(user.getPassword())) {
+                return ResponseEntity.ok("Login successful");
+            } else {
+                return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Invalid password");
+            }
         } else {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("User not found");
         }
     }
-
 }
+
+
+

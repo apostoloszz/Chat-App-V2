@@ -42,11 +42,10 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
-        registry.addEndpoint("/ws") // Đảm bảo là "/ws"
-                .setAllowedOrigins("http://localhost:3000") // Cho phép frontend từ http://localhost:3000
-                .withSockJS(); // Dùng SockJS nếu WebSocket không hỗ trợ
+        registry.addEndpoint("/ws")
+                .setAllowedOrigins("http://localhost:3000")
+                .withSockJS();
     }
-
 }
 
 

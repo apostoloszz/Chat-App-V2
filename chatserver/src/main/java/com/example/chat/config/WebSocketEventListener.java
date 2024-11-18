@@ -39,6 +39,7 @@ public class WebSocketEventListener {
                 notifyFriendStatusChange(username, true); // Gửi thông báo online
             });
         }
+        System.out.println("New WebSocket connection established");
     }
 
     @EventListener
@@ -60,6 +61,7 @@ public class WebSocketEventListener {
                     .build();
             messagingTemplate.convertAndSend("/topic/public", chatMessage);
         }
+        System.out.println("WebSocket connection closed");
     }
 
         private void notifyFriendStatusChange(String username, Boolean onlineStatus) {
@@ -73,6 +75,8 @@ public class WebSocketEventListener {
             ));
         });
     }
+
+
 
 
 }
